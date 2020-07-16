@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "carbon:block/silicon_block"
+    }
+  }
+}

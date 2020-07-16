@@ -1,0 +1,30 @@
+
+BLOCKS:
+    models/block:
+        {
+          "parent": "block/cube_all",
+          "textures":
+          {
+            "all": "carbon:blocks/"
+          }
+        }
+
+    models/item:
+        {
+          "parent": "carbon:block/"
+        }
+
+    blockstates:
+        {
+          "variants": {
+            "": { "model": "carbon:block/" }
+          }
+        }
+
+ITEMS:
+    {
+      "parent": "item/generated",
+      "textures": {
+    	"layer0": "MOD_ID:items/ITEM_NAME"
+      }
+    }

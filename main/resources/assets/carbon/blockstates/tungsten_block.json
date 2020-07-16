@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "carbon:block/tungsten_block" }
+  }
+}

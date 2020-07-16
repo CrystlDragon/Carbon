@@ -14,7 +14,19 @@
   "item.carbon.tungsten_ingot": "Tungsten Ingot",
   "item.carbon.tungsten_carbide_ingot": "Tungsten Carbide Ingot",
 
-  "block.carbon.block_silicon": "Block Of Silicon",
+
+  "block.carbon.silicon_block": "Block Of Silicon",
+  "block.carbon.silicon_carbide_block": "Block Of Silicon Carbide",
+  "block.carbon.tungsten_block": "Block Of Tungsten",
+  "block.carbon.tungsten_carbide_block": "Block Of Tungsten Carbide",
+  "block.carbon.low_carbon_steel_block": "Block Of Low Carbon Steel",
+  "block.carbon.medium_carbon_steel_block": "Block Of Medium Carbon Steel",
+  "block.carbon.high_carbon_steel_block": "Block Of High Carbon Steel",
+  "block.carbon.hardened_daimond_block": "Block Of Hardened Diamond",
+  "block.carbon.coke_block": "Block Of Coke",
+  "block.carbon.activated_carbon_block": "Block Of Activated Carbon",
+
+
 
   "itemGroup.carbon_tab": "Carbon"
 }

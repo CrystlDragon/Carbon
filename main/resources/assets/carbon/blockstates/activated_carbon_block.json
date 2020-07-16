@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "carbon:block/activated_carbon_block" }
+  }
+}
