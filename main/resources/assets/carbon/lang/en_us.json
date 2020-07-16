@@ -1,0 +1,20 @@
+{
+  "item.carbon.carbon_fiber": "Carbon Fiber",
+  "item.carbon.coke": "Coke",
+  "item.carbon.diamane": "Diamane",
+  "item.carbon.graphene": "Graphene",
+  "item.carbon.graphite": "Graphite Dust",
+  "item.carbon.hardened_diamond": "Hardened Diamond",
+  "item.carbon.high_carbon_steel_ingot": "High Carbon Steel Ingot",
+  "item.carbon.lonsdaleite": "Lonsdaleite",
+  "item.carbon.low_carbon_steel_ingot": "Low Carbon Steel Ingot",
+  "item.carbon.medium_carbon_steel_ingot": "Medium Carbon Steel Ingot",
+  "item.carbon.silicon_ingot": "Silicon Ingot",
+  "item.carbon.silicon_carbide_ingot": "Silicon Carbide Ingot",
+  "item.carbon.tungsten_ingot": "Tungsten Ingot",
+  "item.carbon.tungsten_carbide_ingot": "Tungsten Carbide Ingot",
+
+  "block.carbon.block_silicon": "Block Of Silicon",
+
+  "itemGroup.carbon_tab": "Carbon"
+}
