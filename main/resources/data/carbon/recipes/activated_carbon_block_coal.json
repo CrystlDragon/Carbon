@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "result": {
+    "item": "carbon:activated_carbon_block"
+  }
+}

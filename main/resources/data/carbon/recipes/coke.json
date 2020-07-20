@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "carbon:coke_block"
+    }
+  },
+  "result":
+  {
+    "item": "carbon:coke",
+    "count": 9
+  }
+}

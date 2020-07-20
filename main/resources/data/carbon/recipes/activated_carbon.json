@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "carbon:activated_carbon_block"
+    }
+  },
+  "result":
+  {
+    "item": "carbon:activated_carbon",
+    "count": 9
+  }
+}

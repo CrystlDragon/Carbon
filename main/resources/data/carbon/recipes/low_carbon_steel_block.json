@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "carbon:low_carbon_steel_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "carbon:low_carbon_steel_block",
+    "count": 1
+  }
+}

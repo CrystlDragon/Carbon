@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "carbon:hardened_diamond_block"
+    }
+  },
+  "result":
+  {
+    "item": "carbon:hardened_diamond",
+    "count": 9
+  }
+}

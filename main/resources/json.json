@@ -1,0 +1,195 @@
+
+BLOCKS:
+    models/block:
+        {
+          "parent": "block/cube_all",
+          "textures":
+          {
+            "all": "carbon:blocks/"
+          }
+        }
+
+    models/item:
+        {
+          "parent": "carbon:block/"
+        }
+
+    blockstates:
+        {
+          "variants": {
+            "": { "model": "carbon:block/" }
+          }
+        }
+
+ITEMS:
+    {
+      "parent": "item/generated",
+      "textures": {
+    	"layer0": "MOD_ID:items/ITEM_NAME"
+      }
+    }
+
+RECIPES:
+
+
+LOOT_TABLES:
+    basic:
+        {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "MOD_ID:ITEM_NAME"
+                }
+              ]
+            }
+          ]
+        }
+
+    multi-drop:
+                {
+                    "type": "minecraft:block",
+                    "pools":
+                    [
+                        {
+                            "rolls": 1,
+                            "entries":
+                            [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children":
+                                    [
+                                        {
+                                            "type": "minecraft:item",
+                                            "functions":
+                                            [
+                                                {
+                                                   "function": "minecraft:set_count",
+                                                    "count":
+                                                    {
+                                                        "min": 1,
+                                                        "max": 1,
+                                                        "type": "minecraft:uniform"
+                                                    }
+                                                }
+                                            ],
+                                            "name": "MOD_ID:ITEM_NAME"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+
+
+    fortune-addon:
+        {
+            "function": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:uniform_bonus_count",
+            "parameters":
+            {
+                "bonusMultiplier": 1
+            }
+        }
+
+    silcc-touch-addon:
+        {
+            "type": "minecraft:item",
+            "conditions":
+            [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate":
+                    {
+                        "enchantments":
+                        [
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels":
+                                {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+          "name": "MOD_ID:ITEM_NAME"
+        },
+
+    ultimate-loot-table:
+                {
+                    "type": "minecraft:block",
+                    "pools":
+                    [
+                        {
+                            "rolls": 1,
+                            "entries":
+                            [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children":
+                                    [
+
+                                        {
+                                            "type": "minecraft:item",
+                                            "conditions":
+                                            [
+                                                {
+                                                    "condition": "minecraft:match_tool",
+                                                    "predicate":
+                                                    {
+                                                        "enchantments":
+                                                        [
+                                                            {
+                                                                "enchantment": "minecraft:silk_touch",
+                                                                "levels":
+                                                                {
+                                                                    "min": 1
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                        "name": "MOD_ID:ITEM_NAME"
+                                        },
+
+                                        {
+                                            "type": "minecraft:item",
+                                            "functions":
+                                            [
+                                                {
+                                                   "function": "minecraft:set_count",
+                                                    "count":
+                                                    {
+                                                        "min": 1,
+                                                        "max": 1,
+                                                        "type": "minecraft:uniform"
+                                                    }
+                                                },
+
+                                               {
+                                                "function": "minecraft:apply_bonus",
+                                                "enchantment": "minecraft:fortune",
+                                            "formula": "minecraft:uniform_bonus_count",
+                                            "parameters":
+                                                  {
+                                                      "bonusMultiplier": 1
+                                                  }
+                                               }
+
+                                            ],
+                                            "name": "MOD_ID:ITEM_NAME"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
